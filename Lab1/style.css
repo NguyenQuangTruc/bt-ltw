@@ -1,0 +1,54 @@
+table, th, td {
+  border: 1px solid black;
+  margin: auto;
+}
+
+#layout-table {
+    width: 1200px;
+}
+
+#content-table {
+    width: 20%;
+}
+
+main {
+    background-color: yellow;
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: red;
+    height: 100px;
+}
+
+nav {
+    background-color: green;
+    height: 50px;
+}
+
+#main-content {
+    background-color: pink;
+    height: 400px;
+    width: 100%;
+}
+
+#left {
+    background-color: blue;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+#right {
+    background-color: orange;
+    float: right;
+    width: calc(100% - 20%);
+    height: 100%;
+}
+
+footer {
+    background-color: purple;
+    height: 200px;
+}
+
