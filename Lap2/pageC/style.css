@@ -1,0 +1,148 @@
+:root {
+    --gray-header: #333333;
+    --p-350: 350px;
+}
+
+header {
+    background-color: var(--gray-header);
+    color: gray;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px var(--p-350);
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(206, 206, 206);
+    padding: 10px var(--p-350);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+#list-items-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#list-items-header a {
+    margin-right: 20px;
+}
+
+#list-items-header-sdt {
+    color: yellow;
+}
+
+#content-selection-mot {
+    background-image: url("../img/anh-thien-nhien1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px var(--p-350);
+    color: white;
+    text-align: center;
+}
+
+#text-content-1 {
+    width: 60%;
+    display: inline-flex;
+}
+
+#content-1-form {
+    background-color: black;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#content-1-form form input {
+    padding: 5px;
+    border: none;
+    border-radius: 1px;
+    margin-right: 10px;
+}
+
+#content-1-form form button {
+    padding: 5px;
+    background-color: rgb(224, 224, 0);
+    color: white;
+    border: none;
+    border-radius: 1px;
+}
+
+#content-selection-hai {
+    padding: 20px var(--p-350);
+    display: flex;
+    gap: 20px;
+}
+
+#content-2-left {
+    width: 65%;
+    margin: auto;
+}
+
+#content-2-right {
+    background-color: rgb(219, 219, 219);
+    width: calc(100% - 65%);
+    padding: 30px 25px 30px 20px;
+}
+
+#select-form-2 {
+    width: calc(100% + 10px);
+    border: none;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+
+#bt-form-2 {
+    width: calc(100% + 10px);
+    margin-top: 10px;
+    padding: 10px 5px;
+    border: none;
+    background-color: rgb(0, 223, 0);
+    color: white;
+}
+
+#list-icons-footer {
+    background-color: #c7c7c7;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 7%;
+}
+
+
+/* class */
+
+
+
+.card {
+    display: flex;
+    margin-top: 10px;
+}
+
+.card-left {
+    width: 35%;
+}
+
+.card-left img {
+    height: 100%;
+}
+
+.card-right {
+    padding-right: 10px;
+}
+
+.input-form-2 {
+    width: 100%;
+    border: none;
+    padding: 10px 5px;
+    margin-top: 10px;
+}
