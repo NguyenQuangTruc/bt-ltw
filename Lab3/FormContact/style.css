@@ -1,0 +1,100 @@
+:root {
+    --vien-gray: rgb(202, 202, 202);
+    --bg-gray: rgb(223, 223, 223);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    background-color: var(--bg-gray);
+    font-size: 17px;
+    display: block;
+    width: 100%;
+}
+
+label {
+    font-size: 12px;
+    display: block;
+}
+
+select {
+    width: 100%;
+    background-color: var(--bg-gray);
+    border: none;
+    font-size: 17px;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    border: none;
+}
+textarea, select, input:focus {
+    border: none;
+    outline: none;
+}
+
+
+#contact-form {
+    background-color: grey;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#form-input {
+    margin-top: 30px;
+}
+
+#contact-form form {
+    background-color: white;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    /* height: calc(100% - 20px); */
+    padding: 50px 0px;
+}
+
+
+#input-mail-phone {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 calc(((100% - 85%) / 2) - 10px);
+}
+
+#input-mail {
+    width: 45%;
+}
+
+#input-phone {
+    width: 45%;
+} 
+
+/* class */
+
+.input {
+    border: 1px solid var(--vien-gray);
+    padding: 5px 10px;
+    background-color: var(--bg-gray);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 85%;
+}
+
+.input-grid-2 {
+    display: flex; 
+    width: 100%; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.input-message {
+    background-color: white;
+}
