@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="account-form">
+        <label for="">Account</label>
+        <div class="input-account" id="input-account">
+            <form action="">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" placeholder="Full Name">
+            </form>
+        </div>
+
+        <div class="input-account" id="input-account">
+            <form action="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <input type="text" placeholder="Email Adress">
+            </form>
+        </div>
+
+        <div class="input-account" id="input-account">
+            <form action="">
+                <i class="fa fa-key" aria-hidden="true"></i>
+                <input type="text" placeholder="Password">
+            </form>
+        </div>
+
+        <div id="input-info">
+            <div>
+                <label for="">
+                    Date of Birth
+                </label>
+                <form action="">
+                    <input style="width: 15%;" type="text" placeholder="DD">
+                    <input style="width: 15%;" type="text" placeholder="MM">
+                    <input style="width: 30%;" type="text" placeholder="YYYY">
+                </form>
+            </div>
+
+            <div id="check-gender">
+                <label for="">
+                    Gender
+                </label>
+                <div class="check">
+                    <div id="check-mate" onclick="SetActiveMate()" class="check-item active">
+                        Mate
+                    </div>
+                    <div id="check-fenate" onclick="SetActiveFenate()" class="check-item">
+                        Fenate
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

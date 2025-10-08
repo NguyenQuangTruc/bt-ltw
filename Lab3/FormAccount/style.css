@@ -1,0 +1,121 @@
+:root {
+    --p-lr: 40px;
+    --p-tb: 20px;
+    --xanh-la: rgb(0, 220, 80);
+    --gray: rgb(236, 236, 236);
+    --gray-1: rgb(179, 179, 179);
+}
+
+body {
+    background-color: var(--gray-1);
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    color: var(--xanh-la);
+    font-weight: bold;
+}
+
+i {
+    color: var(--gray-1);
+    background-color: var(--gray);
+}
+
+input {
+    border: none;
+    background-color: var(--gray);
+    font-size: 20px;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+
+#account-form {
+    background-color: white;
+    width: 500px;
+    border-radius: 5px;
+    padding: var(--p-tb) var(--p-lr);
+}
+
+#input-info {
+    margin-top: 30px;
+    gap: 10px;
+    display: flex;
+}
+
+#input-info div {
+    width: 50%;
+
+}
+
+#input-info div form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#input-info div form input {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--gray-1);
+}
+
+#check-gender {}
+
+
+#check-gender .check {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+/* class */
+
+.input-account {
+    width: 100%;
+}
+
+.input-account form {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid var(--gray);
+}
+
+.input-account form input {
+    padding: 10px 20px;
+    border-left: 1px solid var(--gray-1);
+}
+
+.input-account form i {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-account form input {
+    width: 100%;
+}
+
+.check {
+    background-color: var(--gray);
+    color: var(--gray-1);
+    text-align: center;
+}
+
+.check-item {
+    padding: 10px;
+    border: 1px solid var(--gray-1);
+}
+
+.active {
+    background-color: var(--xanh-la);
+    color: white;
+}
