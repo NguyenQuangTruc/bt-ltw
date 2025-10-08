@@ -39,6 +39,10 @@ textarea, select, input:focus {
     outline: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 
 #contact-form {
     background-color: grey;
@@ -97,4 +101,8 @@ textarea, select, input:focus {
 
 .input-message {
     background-color: white;
+}
+
+.input-submit {
+    width: calc(85% + 20px);
 }

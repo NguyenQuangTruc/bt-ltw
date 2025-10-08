@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(163, 65, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+
+#form-SignIn {
+    background-image: url("../img/bien.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#form-SignIn form {
+    background-color: rgb(252, 252, 252);
+    width: 30%;
+    height: 75%;
+    border-radius: 10px;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-SignIn form label {
+    margin-top: 50px;
+    display: block;
+    color: gray;
+}
+
+
+#form-title {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+#form-input {
+    margin-top: 20px;
+}
+
+#form-input input {
+    width: 80%;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    color: blueviolet;
+    filter: drop-shadow(
+      0px 0px 10px rgb(214, 214, 214)
+    );
+    transition: transform 0.5s ease;
+}
+
+#form-input input:hover {
+    transform: scale(1.1);
+}
+
+#form-submit button {
+    margin-top: 20px;
+    filter: drop-shadow(
+      0px 5px 10px rgb(163, 65, 255)
+    );
+    transition: transform 0.5s ease;
+}
+
+#form-submit button:hover {
+    transform: scale(1.1);
+}
+
+#form-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#form-login a {
+    display: flex;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
+    filter: drop-shadow(
+      0px 0px 10px rgb(214, 214, 214)
+    );
+    transition: transform 0.5s ease;
+}
+
+#form-login a:hover {
+    transform: scale(1.2);
+}
+
+#form-login a .fa-facebook {
+    color: blue;
+}
+
+#form-login a .fa-google {
+    color: rgb(255, 0, 0);
+}
+
+#form-sign-up {
+    margin-top: auto;
+}
+
+#form-sign-up a:hover {
+    color: blueviolet;
+}
+
+
+
