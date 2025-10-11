@@ -1,0 +1,12 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+body button {
+    padding: 10px 20px;
+}
