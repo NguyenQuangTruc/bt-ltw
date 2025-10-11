@@ -45,6 +45,10 @@ footer {
     font-weight: bold;
 }
 
+#nav-left a:hover {
+    color: rgb(74, 74, 74);
+}
+
 #nav-right i {
     margin-right: 10px;
     color: gray;

@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 #list-items-header {
     display: flex;
     justify-content: space-between;
@@ -33,6 +37,10 @@ a {
 
 #list-items-header a {
     margin-right: 20px;
+}
+
+#list-items-header a:hover {
+    color: aliceblue;
 }
 
 #list-items-header-sdt {
